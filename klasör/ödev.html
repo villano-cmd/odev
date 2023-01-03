@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Başlıksız Belge</title>
+	<link rel="stylesheet" href="stil.css">
+</head>
+
+<body>
+	<h1>HTML'de Listeleme Etiketleri</h1>
+	<h3>HTML'de listeler genel olarak ikiye ayrılır. Bunlar:</h3>
+	<ul>
+	  <li>Sıralı Listeler</li>
+	    <li>Sırasız Listeler </li>
+     
+</ul>
+	<h3>SIRALI LİSTE – OL ETİKETİ</h3>
+	<ul>
+	  <li>ol etiketi : Sıralı liste oluşturmak için kullanılır.</li>
+	  <li>li etiketi : Listenin her bir elemanını oluşturmak için kullanılır.</li>
+
+</ul>
+	<i>⇒ Her bir liste elemanı (li),  bulunduğu satırı tamamen (100%) kaplar. Yani li etiketi bir block etikettir.</i>
+	
+	<h3>En basit haliyle bir sıralı liste şu şekilde görünür:</h3>
+	<ol>
+    <li>Ankara</li>
+    <li>İstanbul</li>
+    <li>İzmir</li>
+</ol><br>
+	Gördüğünüz gibi varsayılan olarak liste elemanlarının başında rakamlar bulunuyor. İstersek bunları değiştirebiliyoruz.<br>
+<b> ⇒  ol etiketinin type attribute’una şu değerleri vererek işaretçi türünü değiştirebiliriz.</b><br>
+<b>► 1 :</b> Listeleme sayılar ile yapılır.<br>
+
+<b>► A :</b> Listeleme büyük harfler ile yapılır.<br>
+
+<b>► a :</b> Listeleme küçük harfler ile yapılır.<br>
+
+<b>► I :</b> Listeleme büyük roma rakamları ile yapılır.<br>
+
+<b>► i :</b> Listeleme küçük roma rakamları ile yapılır.<br>
+	
+	<h3>Bu değerleri girdiğinizde işaretçi türleriniz şu şekillerde görünecektir:</h3>
+	<ol type="A">
+    <li>Ankara</li>
+    <li>İstanbul</li>
+</ol>
+ 
+<ol type="a">
+    <li>Ankara</li>
+    <li>İstanbul</li>
+</ol>
+ 
+<ol type="I">
+    <li>Ankara</li>
+    <li>İstanbul</li>
+</ol>
+ 
+<ol type="i">
+    <li>Ankara</li>
+    <li>İstanbul</li>
+</ol>
+	
+	<h1>SIRASIZ LİSTE – UL ETİKETİ</h1>
+	<h3>Sırasız bir liste oluştururken 2 etiket kullanıyoruz. Bunlar;</h3>
+	<ul>
+	  <li>ul etiketi : Sırasız liste oluşturmak için kullanılır.</li>
+		<li>li etiketi : Listenin her bir elemanını oluşturmak için kullanılır.</li>
+
+</ul>
+	      	<i>⇒ Her bir liste elemanı (li),  bulunduğu satırı tamamen (100%) kaplar. Yani <b>li etiketi</b> bir <b>block etikettir.</b></i>
+	<h3>En basit haliyle bir sırasız liste şu şekilde görünür:</h3>
+	<ul>
+    <li>Ankara</li>
+    <li>İstanbul</li>
+    <li>İzmir</li>
+</ul>
+	<p>Gördüğünüz gibi varsayılan olarak liste elemanlarının başında içi dolu yuvarlaklar bulunuyor. İstersek bunları değiştirebiliyoruz. Bunun için CSS kullanmamız gerekiyor.</p>
+	<i> ⇒  ul etiketinin list-style-type özelliğine şu değerleri vererek işaretçi türünü değiştirebiliriz.</i><br>
+	<b>► disc : </b>Listeleme içi dolu yuvarlak ile yapılır.<br>
+
+<b>► circle :</b> Listeleme içi boş yuvarlak ile yapılır.<br>
+
+<b>► square : </b>Listeleme içi dolu kare ile yapılır.<br>
+
+<b>► none : </b>Listelemede işaretçi bulunmaz.<br>
+	
+	<h3>Bu değerleri girdiğinizde işaretçi türleriniz şu şekillerde görünecektir:</h3>
+	<ul style="list-style-type:disc">
+    <li>Ankara</li>
+    <li>İstanbul</li>
+</ul>
+ 
+<ul style="list-style-type:circle">
+    <li>Ankara</li>
+    <li>İstanbul</li>
+</ul>
+ 
+<ul style="list-style-type:square">
+    <li>Ankara</li>
+    <li>İstanbul</li>
+</ul>
+ 
+<ul style="list-style-type:none">
+    <li>Ankara</li>
+    <li>İstanbul</li>
+</ul><br>
+	<h3> ⇒  Son olarak HTML listeleme etiketleri içerisinde çok kullanılmayan bir liste türünden bahsedelim.</h3>
+	<h4>Bu listeleme türünde liste elemanlarına başlık verebiliyoruz. Böyle bir liste oluştururken 3 etiket kullanıyoruz. Bunlar:</h4><br>
+	<b>► dl etiketi : </b>Liste oluşturmak için kullanılır.<br>
+
+<b>► dt etiketi :</b> Liste elemanlarına başlık vermek için kullanılır.<br>
+
+<b>► dd etiketi : </b>Liste elemanlarını oluşturmak için kullanılır.<br>
+	<p><b>En basit haliyle şu şekilde görünür.</b></p><br>
+	<dl>
+    <dt>Şehirler</dt>
+    <dd>Ankara</dd>
+    <dd>İstanbul</dd>
+    <dd>İzmir</dd>
+ 
+    <dt>İlçeler</dt>
+    <dd>Çankaya</dd>
+    <dd>Kadıköy</dd>
+    <dd>Karşıyaka</dd><br>
+		
+		<h3>Gördüğünüz gibi dt etiketi ile yazdıklarımız liste elemanlarının başlığı olmuş oldu.</h3>
+		<h4>HTML listeleme etiketleri (ul, ol, dl) bu şekilde.</h4>
+</dl>
+</body>
+</html>
